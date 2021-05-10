@@ -1,0 +1,46 @@
+.Header {
+  background-color:antiquewhite;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header h1 {
+  font-size: 25px;
+}
+
+.Header .actions {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Header button {
+  background-color: #ffc107;
+  border: 0;
+  width: 150px;
+  padding: 8px;
+  cursor: pointer;
+  color: #000;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.Subheader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color:bisque;
+}
+
+.Subheader p {
+  padding: 10px 25px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.Subheader span {
+  margin: 0;
+  font-weight: 600;
+}

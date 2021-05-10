@@ -1,0 +1,33 @@
+.MultiLevelIniniteList {
+  display: flex;
+}
+
+.MultiLevelIniniteList h1 {
+  text-align: center;
+}
+
+.MultiLevelIniniteList .level-1 {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MultiLevelIniniteList .level-2 {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.MultiLevelIniniteList .level-3 {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}

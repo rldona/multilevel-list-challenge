@@ -1,0 +1,13 @@
+.Item {
+  background-color: #FFF;
+  padding: 0 10px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item svg {
+  cursor: pointer;
+}
